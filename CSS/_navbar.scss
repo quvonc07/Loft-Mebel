@@ -1,0 +1,41 @@
+// navbar
+
+.navbar {
+    background-color: #313131;
+    height: 38px;
+    transition: 0.5s;
+}
+
+.navbar__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 38px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.5s;
+}
+
+.navbar__left ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar__right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__right p {
+    margin-right: 30px;
+    margin-left: 11px;
+}
+
+.navbar__right_deliv {
+    margin-left: 10px;
+}
